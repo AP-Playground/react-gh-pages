@@ -29,10 +29,6 @@ jobs:
       - name: Generate static site
         run: npm run build
 
-      - name: List output folder
-        run: ls -la dist
-
-
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v4
 
